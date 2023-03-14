@@ -40,7 +40,8 @@ class Registros:
                             self.cadas = True  
         except:  
             print('tente novamente')
-                
+
+'''Registro email '''               
 
 
 

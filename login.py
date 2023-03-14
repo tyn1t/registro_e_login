@@ -5,7 +5,7 @@ def login():
     if nome is None and senha is None:
         print('Erro no login tente novamente ok')
     else:
-        with open('regis.txt', 'r', encoding='utf-8') as username:
+        with open('Ex\Regis.txt', 'r', encoding='utf-8') as username:
             for user in username.readlines():
                 try:
                     user1, password = user.strip().split(',')
@@ -15,4 +15,4 @@ def login():
                 except:
                     print("Usuário não existe")
 
-
+'''Login'''

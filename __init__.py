@@ -1,5 +1,14 @@
 from Registro import Registros
 from login import login
+
+
+# test 
+def pr():
+    print('Test ok')
+    
+    
+pr()
+
 def valida_int(mensagen, min, max):
     try:
         valor = int(input(mensagen))
